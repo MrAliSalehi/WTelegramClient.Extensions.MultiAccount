@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WTelegramClient.Extensions.MultiAccount", "WTelegramClient.Extensions.MultiAccount.csproj", "{FD68DC98-6B71-4567-9FD8-80B944999BBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiAccount.Test", "..\..\..\Tests\MultiAccount\MultiAccount.Test\MultiAccount.Test.csproj", "{397299F2-0C32-4A15-8573-DA011DA8DC21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD68DC98-6B71-4567-9FD8-80B944999BBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD68DC98-6B71-4567-9FD8-80B944999BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD68DC98-6B71-4567-9FD8-80B944999BBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD68DC98-6B71-4567-9FD8-80B944999BBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{397299F2-0C32-4A15-8573-DA011DA8DC21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{397299F2-0C32-4A15-8573-DA011DA8DC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{397299F2-0C32-4A15-8573-DA011DA8DC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{397299F2-0C32-4A15-8573-DA011DA8DC21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8A04E70-1E16-4FBC-B75D-1CC837E9A590}
+	EndGlobalSection
+EndGlobal
